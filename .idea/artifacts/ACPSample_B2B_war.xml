@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ACPSample_B2B:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/ACPSample_B2B_war</output-path>
+    <root id="archive" name="ACPSample_B2B_war.war">
+      <element id="artifact" artifact-name="ACPSample_B2B:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="tomcat" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
